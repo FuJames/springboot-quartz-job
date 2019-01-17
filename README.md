@@ -26,4 +26,4 @@
 
         思考:
         1. server需要遍历所有的trigger,可以让server值遍历trigger_id所hash的值
-        2.
+        2. job执行逻辑需要跟scheduler在同一台server,可以分开job和scheduler,用rpc或http通信
